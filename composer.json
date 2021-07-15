@@ -1,0 +1,17 @@
+{
+  "name": "179660663/php_tools",
+  "description": "封装一个php工具合集",
+  "type": "library",
+  "keywords": ["dev"],
+  "homepage": "https://github.com/179660663/php_tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "llz",
+      "email": "179660663@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  }
+}
