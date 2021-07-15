@@ -2,7 +2,7 @@
   "name": "179660663/php_tools",
   "description": "封装一个php工具合集",
   "type": "library",
-  "keywords": ["dev"],
+  "keywords": ["tools"],
   "homepage": "https://github.com/179660663/php_tools",
   "license": "MIT",
   "authors": [
@@ -13,5 +13,11 @@
   ],
   "require": {
     "php": ">=7.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Tools\\": "src/"
+    }
   }
 }
